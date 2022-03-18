@@ -1,14 +1,10 @@
 package br.com.senai.academiasenai.entity;
 
-import java.time.LocalDate;
-
 public class Professor {
 	
 	private Integer id;
 	
-	private String nomeCompleto;	
-	
-	private LocalDate dataDeCasamento;
+	private String nomeCompleto;
 
 	public Integer getId() {
 		return id;
@@ -24,14 +20,6 @@ public class Professor {
 
 	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
-	}
-
-	public LocalDate getDataDeCasamento() {
-		return dataDeCasamento;
-	}
-
-	public void setDataDeCasamento(LocalDate dataDeCasamento) {
-		this.dataDeCasamento = dataDeCasamento;
 	}	
 	
 }
